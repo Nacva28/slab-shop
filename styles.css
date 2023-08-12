@@ -5,7 +5,6 @@
 }
 
 .nav-nav {
-  height: 9vw;
   display: flex;
   flex-direction: column;
 }
@@ -24,8 +23,8 @@
   padding-left: 1.5%;
   flex-direction: row;
   align-items: center;
-  width: 50vh;
   justify-content: space-between;
+  gap: 10px;
 }
 
 .top_nav_inside_right {
@@ -33,9 +32,8 @@
   padding-right: 1.5%;
   flex-direction: row;
   align-items: center;
-  width: 50vh;
+  gap: 10px;
   justify-content: space-between;
-  
 }
 
 .middle-nav {
@@ -132,15 +130,84 @@
   display: flex;
   padding-right: 35px;
 }
-.img-main{height: 35vh;
-display: flex;
-justify-content: space-between;
-padding-left: 1.5%;
-flex-direction: column;}
-.svg-next-back{display: flex;
-justify-content: space-between;
-height: 10vh;
-margin-top: 10px;
+.img-main {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1.5%;
+  flex-direction: column;
+}
+.svg-next-back {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 10px;
 }
 
-.next-back{display: flex;}
+.next-back {
+  display: flex;
+}
+.main-middle-one {
+  display: flex;
+
+  padding-left: 1.5%;
+  margin-top: 6px;
+}
+
+.bau-navbar {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px;
+}
+.billsutility {
+  border: 1px solid rgb(180, 180, 180);
+  width: 80rem;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+.nav-search-bau {
+  display: flex;
+  width: 65rem;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.nav-search-bau a {
+  text-decoration: none;
+  color: #828282;
+}
+.code-transaction {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-top: 1px solid rgb(204, 203, 203);
+}
+
+.bau-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.help-svg {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.svg-party{display: flex;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 120px; 
+  
+}
+.choose-category h4 {display: flex;
+flex-wrap: wrap; width: 50px; text-align: center; padding-top: 5px;}
