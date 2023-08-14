@@ -211,3 +211,33 @@
 }
 .choose-category h4 {display: flex;
 flex-wrap: wrap; width: 50px; text-align: center; padding-top: 5px;}
+
+
+.nav-2{display: flex;
+justify-content: space-between;
+padding: 1.2%;}
+
+.time-end{display: flex;
+gap: 10px;
+align-items: center;}
+
+.time-end h4 {color: var(--black, #212121);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;}
+
+  .time-end p {display: flex;
+    width: 33px;
+    height: 32px;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;border-radius: 4px;
+    background: #52057B;
+  color: white;}
+
+  .time-end span { display: inline-block;
+  font-weight: bold;}
