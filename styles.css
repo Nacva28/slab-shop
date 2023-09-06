@@ -69,7 +69,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 100px;
+  padding-right: 90px;
   margin-right: 50px;
 }
 
@@ -428,63 +428,80 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto ;
+  grid-template-columns: auto;
   gap: 40px;
   padding: 40px;
-
-
 }
 
-.button-style{display: flex;
-flex-direction: column; padding-top: 20px;
-padding-bottom: 20px;}
+.button-style {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-.button-style {gap: 20px;
-padding-left: 10px;}
+.button-style {
+  gap: 20px;
+  padding-left: 10px;
+}
 
-.grid-container-1{ display: grid;
+.grid-container-1 {
+  display: grid;
   column-gap: 25px;
   grid-template-columns: auto auto auto auto auto auto auto auto;
-   
-margin-right: 10px;
-margin-top: 20px;}
 
-.grid-item-12{  background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(255, 255, 255);
-  padding: 20px;
- 
-  font-size: 16px;
-  text-align: left ;
-color: var(--disable, #828282);;}
-
-  .grid-item-123{background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(255, 255, 255);
-    padding: 20px;
-    font-size: 20px;
-    }
-
-    .container-pay{display: flex;
-    flex-direction: column;
-  gap: 70px;
-padding-left: 10px;}
-
-  .img-pay{display: flex;
-  gap: 50px;
-justify-content: space-between;
-padding-right: 70px;
-padding-bottom: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
 }
 
-.documentation{display: flex;
-flex-direction: column;
-gap:50px;
-padding-right: 50px;
-padding-left: 10px;}
+.grid-item-12 {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 20px;
 
-.documentation-in{display: flex;
-flex-direction: column;
-gap:20px;}
+  font-size: 16px;
+  text-align: left;
+  color: var(--disable, #828282);
+}
 
-.documentation-in div p{color: var(--disable, #828282);
-font-size: 23.3px;
-align-self: stretch;}
+.grid-item-123 {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 20px;
+  font-size: 20px;
+}
+
+.container-pay {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding-left: 10px;
+}
+
+.img-pay {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  padding-right: 70px;
+  padding-bottom: 10px;
+}
+
+.documentation {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-right: 50px;
+  padding-left: 10px;
+}
+
+.documentation-in {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.documentation-in div p {
+  color: var(--disable, #828282);
+  font-size: 23.3px;
+  align-self: stretch;
+}
